@@ -14,7 +14,7 @@ System.out.println(companyList);
 %>
 
 
-<table>
+<table border="1">
 <tr>
 <td>Company Code</td>
 <td>Company Name</td>
