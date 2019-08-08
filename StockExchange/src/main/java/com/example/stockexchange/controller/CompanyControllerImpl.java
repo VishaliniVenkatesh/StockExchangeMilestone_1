@@ -30,9 +30,6 @@ public class CompanyControllerImpl implements CompanyController{
 	@Autowired
 	private CompanyService companyService;
 	
-	
-//	
-	
 	 
      @RequestMapping("/insertcompany")
      public Company insert(HttpServletRequest req){
@@ -85,9 +82,7 @@ public class CompanyControllerImpl implements CompanyController{
 		mv.addObject("companyList",companyService.getCompanyList());
 		return mv;
 	}
-	
-	
-	// try
+
 	public static void main(String [] args) {
 		CompanyController controller=new CompanyControllerImpl();
 		try {
